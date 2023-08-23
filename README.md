@@ -67,3 +67,8 @@ Target board -> Host<br />
 ![image](https://user-images.githubusercontent.com/99227045/187121331-1cfb4a61-0a57-45a2-97bc-07ef03d73421.png)
 
 ## Software Description
+![image](https://github.com/Super-Thomas/Nuvoton_ISP_Lite_for_Windows/assets/99227045/e357c0f5-c38c-4c95-b617-26a20f800477)<br />
+
+## Thanks to
+https://github.com/OpenNuvoton/ISPTool<br />
+https://www.codeproject.com/Articles/992/Serial-library-for-C
