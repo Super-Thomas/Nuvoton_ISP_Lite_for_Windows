@@ -68,6 +68,16 @@ Target board -> Host<br />
 
 ## Software Description
 ![image](https://github.com/Super-Thomas/Nuvoton_ISP_Lite_for_Windows/assets/99227045/e357c0f5-c38c-4c95-b617-26a20f800477)<br />
+### Change the device ID to you want
+For simple operation, a specific Device ID was used. I use M451RG6AE, so compare Device ID value for M451RG6AE and allow connection. If you want use another device id, Please looking for device id value you want in link below.
+https://github.com/OpenNuvoton/ISPTool/blob/master/NuvoISP/DataBase/PartNumID.cpp<br />
+And then change device id value in code below.<br /><br />
+NuvoISPLiteDlg.h
+```cpp
+// Device id
+#define DEVICE_ID 0x00845120 // 0x00845120 is device id for M451RG6AE. Im used M451RG6AE so I will check only M451RG6AE.
+```
+
 
 ## Thanks to
 https://github.com/OpenNuvoton/ISPTool<br />
